@@ -10,27 +10,42 @@ nav {
   padding: 1em;
 }
 
+/* Reset default list styles */
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
 }
 
 nav li {
-  margin: 0 1em;
+  margin: 0;
 }
 
 nav a {
-  color: white;
+  display: block;
+  padding: 1em 1.5em;
   text-decoration: none;
-  font-weight: bold;
+  color: #333;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #e0e0e0;
+  color: #000;
 }
+
+/* Optional: highlight the current page (if desired, you can set a class="active" manually) */
+nav a.active {
+  border-bottom: 3px solid #000;
+  color: #000;
+  font-weight: 600;
+}
+
 
 header {
   text-align: center;
