@@ -63,6 +63,14 @@ body {
   padding: 0 1rem;
 }
 
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #000; /* or any color you prefer */
+  margin-top: 10px; /* optional, adjusts spacing */
+  margin-bottom: 20px; /* optional, adjusts spacing */
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .container {
@@ -75,4 +83,5 @@ body {
     flex-direction: column;
     gap: 1rem;
   }
+
 }
