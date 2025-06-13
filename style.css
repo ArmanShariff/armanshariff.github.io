@@ -1,64 +1,54 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #f7f7f7;;
-  color: #333;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
 }
 
-nav {
-  background: #333;
-  padding: 1em;
+/* Header */
+.site-header {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-/* Reset default list styles */
-nav ul {
+/* Layout */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Site Name */
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* Navbar */
+.navbar ul {
   list-style: none;
+  display: flex;
+  gap: 2rem;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ddd;
 }
 
-nav li {
-  margin: 0;
-}
-
-nav a {
-  display: block;
-  padding: 1em 1.5em;
+.navbar a {
   text-decoration: none;
-  color: #333;
+  color: #000000;
   font-weight: 500;
-  transition: background 0.2s ease, color 0.2s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  transition: border-color 0.2s ease;
 }
 
-nav a:hover {
-  background-color: #e0e0e0;
-  color: #000;
-}
-
-/* Optional: highlight the current page (if desired, you can set a class="active" manually) */
-nav a.active {
-  border-bottom: 3px solid #000;
-  color: #000;
-  font-weight: 600;
-}
-
-
-header {
-  text-align: center;
-  padding: 2em 1em;
-  background: #555;
-  color: white;
-}
-
-main {
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 0 1em;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+.navba
