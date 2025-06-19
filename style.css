@@ -71,6 +71,24 @@ body {
   margin-bottom: 20px; /* optional, adjusts spacing */
 }
 
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.site-footer h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
   .container {
