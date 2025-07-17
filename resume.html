@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <div class="logo">Arman Shariff</div>
-      <nav>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-title">Arman Shariff</div>
+      <nav class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="project1.html">Project 1</a></li>
+          <li><a href="project1.html" class="active">Project 1</a></li>
           <li><a href="project2.html">Project 2</a></li>
           <li><a href="resume.html" class="active">Résumé</a></li>
         </ul>
       </nav>
     </div>
+    <hr class="divider">
   </header>
   <hr />
   <main class="resume-container">
@@ -26,10 +27,12 @@
     <embed src="resume.pdf" type="application/pdf" width="100%" height="800px" />
   </main>
 
-  <footer>
-    <h3>Contact Me</h3>
-    <p>Email: youremail@example.com</p>
+  <footer class="site-footer">
+  <div class="footer-content">
+    <h2>Contact Me</h2>
+    <p>Email: your.email@example.com</p>
     <p>Phone: (123) 456-7890</p>
-  </footer>
+  </div>
+</footer>
 </body>
 </html>
